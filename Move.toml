@@ -1,0 +1,17 @@
+[package]
+name = "Blockchain-based-Fitness-Challange"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x252f588eeb0fc55bfca0b789394efd5fd161db9f9e040b620f83cfc1a1b71388"
+
+[dev-addresses]
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
